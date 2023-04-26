@@ -8,7 +8,9 @@ public class DefaultCountingOutRhymer {
     private int[] NUMBERS = new int[ARRAY_SIZE];
 
     private int total = -1;
-
+    public int getTotal(){
+        return total;
+    }
     public void countIn(int in) {
         if (!isFull())
             NUMBERS[++total] = in;
