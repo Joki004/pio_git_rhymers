@@ -20,9 +20,6 @@ public class IntLinkedList {
         return lastNode == null;
     }
 
-    public boolean isFull() {
-        return false;
-    }
 
     public int top() {
         if (isEmpty())
